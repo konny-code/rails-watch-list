@@ -1,4 +1,8 @@
-<h1><%= "My List #{@list.name}"%></h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg);">
+  <div class="container">
+    <h1><%= "My List #{@list.name}"%></h1>
+  </div>
+</div>
 
 <ul>
   <% @list.bookmarks.each do |bookmark| %>
